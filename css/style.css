@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.button {
+  text-decoration: none;
+}
+/*******************************************************
+*E-Shool code is start
+******************************************************* */
+/* header start */
+.header {
+  width: 100%;
+  background: #f0fff0;
+}
+.main-menu {
+  width: 100%;
+}
+.main-menu .logo {
+  width: 150px;
+}
+.main-menu .bg-light {
+  background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 20px 0px 0px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,
+.main-menu .navbar-light .navbar-nav .nav-link:focus {
+  font-weight: 600;
+}
+.main-menu .btn-success {
+  padding: 7px 25px;
+  border-radius: 35px;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #21b573;
+  color: #fff;
+  border: 1px solid #21b573;
+  transition: all 1s;
+}
+.main-menu .btn-success:hover {
+  color: #21b573;
+  background: transparent;
+}
+/* banner start */
+.banner {
+  padding: 80px;
+}
+.banner p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fd511a;
+}
+.banner h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  color: #000;
+}
+.banner h1 span {
+  color: #21b573;
+}
+.banner h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #000;
+}
+/* From cssbuttons.io by @nikk7007 {start} */
+.banner button {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  z-index: 1;
+  padding: 12px 35px;
+  margin: 25px 0px 0px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #21b573;
+  color: #fff;
+  border: 1px solid #000;
+  transition: all 1s;
+}
+.banner button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #f0fff0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.banner button:hover::before {
+  width: 105%;
+}
+.banner button:hover {
+  color: #111;
+}
+/* From cssbuttons.io by @nikk7007 {end} */
+/* header end */
+
+/* feature start */
+.feature {
+  width: 100%;
+  padding: 80px 0px;
+}
+.feature .inner-feature {
+  width: 100%;
+  height: 270px;
+  padding: 20px;
+  margin: 10px 0px;
+  text-align: center;
+  background: #f8fffb;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.feature .inner-feature:hover,
+.feature .inner-feature:active {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.feature .inner-feature img {
+  width: 66px;
+  height: 85px;
+  margin: 0px 0px 20px;
+}
+.feature .inner-feature h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #413960;
+  margin: 0px;
+}
+.feature .inner-feature p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #585859;
+  margin: 0px;
+}
+/* feature end */
+
+/* courses start */
+section.courses {
+  width: 100%;
+  padding: 80px 0px;
+}
+.courses h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #413960;
+  margin: 0px 0px 50px;
+  text-align: center;
+}
+.courses .card {
+  width: 100%;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  border: 0px;
+  margin: 0px 0px 20px;
+}
+.courses .card .card-body {
+  padding: 20px 0px;
+}
+.courses .card .card-body h5 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #413960;
+}
+.courses .card .card-body p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #585859;
+  margin: 0px 0px 20px;
+}
+.courses .card .card-img-top:hover{
+    opacity: .9;
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: all cubic-bezier(0.42, 0, 0, 0.98) 1s;
+}
+/* From cssbuttons.io by @westitan {start} */
+.card-body button {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 7px 25px;
+  border-radius: 35px;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 20px;
+  background: #21b573;
+  color: #fff;
+  border: 1px solid #21b573;
+  transition: all 1s;
+}
+
+.card-body button span {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  z-index: 1;
+}
+.card-body button .liquid {
+  position: absolute;
+  top: -65px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: #21b573;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: all 1s;
+}
+
+.card-body button .liquid::after,
+button .liquid::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #fff;
+}
+
+.card-body button .liquid::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+}
+
+.card-body button .liquid::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: animate 10s linear infinite;
+}
+.card-body button:hover span {
+  color: #000;
+  transition: all 1s;
+}
+.card-body button:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+/* From cssbuttons.io by @westitan {end} */
+.courses .card .card-body .discp{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #585859;
+    margin: 10px 0px 0px;
+}
+.courses .card .card-body .right-text{
+  text-align: right;
+}
+.courses .card .card-body .cln{
+    width: 18px;
+    margin: -5px 0px 0px;
+}
+.courses .card .card-body .peo{
+    width: 18px;
+    margin: -5px 0px 0px;
+}
+/* feature start */
+
+/* testimonial start */
+section.testimonial{
+  width: 100%;
+  padding: 80px 0px;
+}
+.testimonial h2{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #413960;
+  margin: 0px 0px 50px;
+  text-align: center;
+}
+.testimonial .round{
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+}
+.testimonial .round:hover{
+  outline: 2px solid #21b573;
+}
+.testimonial p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #585859;
+  margin: 15px 0px 0px;
+}
+/* testimonial end */
+
+/* footer start */
+.footer{
+  width: 100%;
+  padding: 60px 0px 30px ;
+  background: #282531;
+}
+.footer .footer-widget{
+  width: 100%;
+  padding: 0px 0px 80px;
+}
+.footer-widget p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.footer-widget h6{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+  margin: 0px 0px 5px;
+}
+.footer-widget ul{
+  padding: 0px;
+}
+.footer-widget ul li{
+  list-style: none;
+}
+.footer-widget ul li a{
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  margin: 0px 0px 5px;
+  transition: all .3s;
+}
+.footer-widget ul li a:hover{
+  color: #21b573;
+}
+.footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+.footer .copyright p{
+  color: #CDCDCD;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px;
+}
+
+/* footer end */
+/*******************************************************
+*E-Shool code is end
+******************************************************* */

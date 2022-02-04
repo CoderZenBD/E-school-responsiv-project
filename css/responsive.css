@@ -1,0 +1,405 @@
+/* 
+ Most of the low resulation mobile devices like : Glaxy Fold
+*/
+@media (min-width: 279px) and (max-width: 319px) {
+  /* code start */
+  .banner {
+    padding: 20px 40px 40px;
+}
+.banner p {
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 0.4rem;
+}
+  .banner h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .banner h5 {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .banner button{
+    padding: 4px 20px;
+    margin: 5px 0px 20px;
+  }
+  .banner button span {
+    font-size: 11px;
+}
+.feature {
+    padding: 40px 0px;
+}
+.feature .inner-feature h5{
+    font-size: 11px;
+    line-height: 14px;
+}
+.feature .inner-feature p{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.courses {
+    padding: 40px 0px;
+}
+.courses h1{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 20px;
+}
+.courses .card .card-body h5{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0px 0px 4px;
+}
+.courses .card .card-body p{
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0px 0px 11px;
+}
+.card-body button{
+    padding: 4px 20px;
+}
+.card-body button span{
+    font-size: 11px;
+}
+.courses .card .card-body .discp{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.testimonial {
+    padding: 40px 0px;
+}
+.testimonial h2{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 15px;
+}
+.testimonial p{
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    display: block;
+}
+.footer {
+    padding: 20px 0px 40px;
+}
+.footer .footer-widget {
+    padding: 20px 0px 20px;
+}
+.footer-widget p{
+    font-size: 9px;
+    line-height: 11px;
+}
+.footer-widget h6{
+    font-size: 11px;
+    line-height: 14px;
+}
+.footer-widget ul li a{
+    font-size: 11px;
+    line-height: 14px;
+}
+  /* code end */
+}
+/* 
+   Most of the mobile devices
+  */
+@media (min-width: 320px) and (max-width: 479px) {
+  /* code start */
+
+  .banner {
+    padding: 20px 40px 40px;
+}
+.banner p {
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 0.4rem;
+}
+  .banner h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .banner h5 {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .banner button{
+    padding: 4px 20px;
+    margin: 5px 0px 20px;
+  }
+  .banner button span {
+    font-size: 11px;
+}
+.feature {
+    padding: 40px 0px;
+}
+.feature .inner-feature h5{
+    font-size: 11px;
+    line-height: 14px;
+}
+.feature .inner-feature p{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.courses {
+    padding: 40px 0px;
+}
+.courses h1{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 20px;
+}
+.courses .card .card-body h5{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0px 0px 4px;
+}
+.courses .card .card-body p{
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0px 0px 11px;
+}
+.card-body button{
+    padding: 4px 20px;
+}
+.card-body button span{
+    font-size: 11px;
+}
+.courses .card .card-body .discp{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.testimonial {
+    padding: 40px 0px;
+}
+.testimonial h2{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 15px;
+}
+.testimonial p{
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    display: block;
+}
+.footer {
+    padding: 20px 0px 40px;
+}
+.footer .footer-widget {
+    padding: 20px 0px 20px;
+}
+.footer-widget p{
+    font-size: 9px;
+    line-height: 11px;
+}
+.footer-widget h6{
+    font-size: 11px;
+    line-height: 14px;
+}
+.footer-widget ul li a{
+    font-size: 11px;
+    line-height: 14px;
+}
+    /* code end */
+  }
+  /* 
+   Most of the mobile devices, Low resulation Tablet, Ipad
+  */
+  @media (min-width: 480px) and (max-width: 767px) {
+    /* code start */
+    .banner {
+        padding: 20px 40px 40px;
+    }
+    .banner p {
+        font-size: 9px;
+        line-height: 11px;
+        margin-bottom: 0.4rem;
+    }
+      .banner h1 {
+        font-size: 22px;
+        line-height: 26px;
+      }
+      .banner h5 {
+        font-size: 11px;
+        line-height: 14px;
+      }
+      .banner button{
+        padding: 4px 20px;
+        margin: 5px 0px 20px;
+      }
+      .banner button span {
+        font-size: 11px;
+    }
+    .feature {
+        padding: 40px 0px;
+    }
+    .feature .inner-feature h5{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .feature .inner-feature p{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    section.courses {
+        padding: 40px 0px;
+    }
+    .courses h1{
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0px 0px 20px;
+    }
+    .courses .card .card-body h5{
+        font-size: 11px;
+        line-height: 14px;
+        margin: 0px 0px 4px;
+    }
+    .courses .card .card-body p{
+        font-size: 9px;
+        line-height: 11px;
+        margin: 0px 0px 11px;
+    }
+    .card-body button{
+        padding: 4px 20px;
+    }
+    .card-body button span{
+        font-size: 11px;
+    }
+    .courses .card .card-body .discp{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    section.testimonial {
+        padding: 40px 0px;
+    }
+    .testimonial h2{
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0px 0px 15px;
+    }
+    .testimonial p{
+        font-size: 9px;
+        line-height: 11px;
+        text-align: right;
+        display: block;
+    }
+    .footer {
+        padding: 20px 0px 40px;
+    }
+    .footer .footer-widget {
+        padding: 20px 0px 20px;
+    }
+    .footer-widget p{
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .footer-widget h6{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .footer-widget ul li a{
+        font-size: 11px;
+        line-height: 14px;
+    }
+  /* code end */
+}
+/* 
+   Most of the Ipad, Mini Notebook, Tablet
+  */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* code start */
+  .banner {
+    padding: 20px 40px 40px;
+}
+.banner p {
+    font-size: 9px;
+    line-height: 11px;
+    margin-bottom: 0.4rem;
+}
+  .banner h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .banner h5 {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .banner button{
+    padding: 4px 20px;
+    margin: 5px 0px 20px;
+  }
+  .banner button span {
+    font-size: 11px;
+}
+.feature {
+    padding: 40px 0px;
+}
+.feature .inner-feature h5{
+    font-size: 11px;
+    line-height: 14px;
+}
+.feature .inner-feature p{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.courses {
+    padding: 40px 0px;
+}
+.courses h1{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 20px;
+}
+.courses .card .card-body h5{
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0px 0px 4px;
+}
+.courses .card .card-body p{
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0px 0px 11px;
+}
+.card-body button{
+    padding: 4px 20px;
+}
+.card-body button span{
+    font-size: 11px;
+}
+.courses .card .card-body .discp{
+    font-size: 9px;
+    line-height: 11px;
+}
+section.testimonial {
+    padding: 40px 0px;
+}
+.testimonial h2{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0px 0px 15px;
+}
+.testimonial p{
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    display: block;
+}
+.footer {
+    padding: 20px 0px 40px;
+}
+.footer .footer-widget {
+    padding: 20px 0px 20px;
+}
+.footer-widget p{
+    font-size: 9px;
+    line-height: 11px;
+}
+.footer-widget h6{
+    font-size: 11px;
+    line-height: 14px;
+}
+.footer-widget ul li a{
+    font-size: 11px;
+    line-height: 14px;
+}
+  /* code end */
+}
